@@ -100,6 +100,7 @@ public class UserService {
      */
     public List<User> getActiveUsersByDepartment(String department) {
         // TODO: DEMO - Type the implementation
+        return null;
     }
 
     /**
@@ -109,6 +110,7 @@ public class UserService {
      */
     public List<User> searchUsers(String searchTerm, String department) {
         // TODO: DEMO - Type the implementation
+        return null;
     }
 
     /**
@@ -118,5 +120,6 @@ public class UserService {
      */
     public java.util.Map<String, Long> getDepartmentStatistics() {
         // TODO: DEMO - Type the implementation
+        return null;
     }
 }

@@ -1,27 +1,35 @@
 package com.demo.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
-import java.util.Objects;
 
 /**
  * Category model for organizing products.
  * See README.md DEMO 3 for step-by-step instructions.
  */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "categories")
 public class Category {
-    private int id;
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    @Column(nullable = false)
     private String name;
+    
     private String description;
-    private boolean isActive;
+    
+    @Column(name = "is_active")
+    private Boolean isActive = true;
+    
     private LocalDateTime createdAt;
+    
     private LocalDateTime updatedAt;
-    
-    // TODO: Constructor
-    
-    // TODO: Getters and Setters
-    
-    // TODO: equals() method
-    
-    // TODO: hashCode() method
-    
-    // TODO: toString() method
 }
