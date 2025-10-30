@@ -90,6 +90,7 @@ export class BookService {
   // Watch Copilot suggest the property check
   getAvailableBooks(): Book[] {
     // TODO: DEMO - Type the implementation
+    return [];
   }
 
   // DEMO 2: Type the implementation
@@ -103,6 +104,7 @@ export class BookService {
     isAvailable?: boolean;
   }): Book[] {
     // TODO: DEMO - Type the implementation
+    return [];
   }
 
   // DEMO 3: Type the implementation
@@ -110,6 +112,7 @@ export class BookService {
   // Watch Copilot suggest the validation and filter
   getBooksByPublishedDateRange(startYear: number, endYear: number): Book[] {
     // TODO: DEMO - Type the implementation
+    return [];
   }
 
   getBooksByYear(year: number): Book[] {

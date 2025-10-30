@@ -20,29 +20,36 @@ public class CategoryService {
     
     public List<Category> getAllCategories() {
         // TODO: Implement
+        return null;
     }
     
     public Optional<Category> getCategoryById(int id) {
         // TODO: Implement
+        return Optional.empty();
     }
     
     public Category createCategory(Category category) {
         // TODO: Implement
+        return null;
     }
     
     public Optional<Category> updateCategory(int id, Category category) {
         // TODO: Implement
+        return Optional.empty();
     }
     
     public boolean deleteCategory(int id) {
         // TODO: Implement
+        return false;
     }
     
     public List<Category> searchCategories(String searchTerm) {
         // TODO: Implement
+        return null;
     }
     
     public List<Category> getActiveCategories() {
         // TODO: Implement
+        return null;
     }
 }

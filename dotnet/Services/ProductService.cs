@@ -78,6 +78,7 @@ public class ProductService : IProductService
     public async Task<IEnumerable<Product>> GetAvailableProductsAsync()
     {
         // TODO: DEMO - Type the implementation
+        throw new NotImplementedException();
     }
 
     /// <summary>
@@ -88,6 +89,7 @@ public class ProductService : IProductService
     public async Task<IEnumerable<Product>> GetProductsByPriceRangeAsync(decimal minPrice, decimal maxPrice)
     {
         // TODO: DEMO - Type the implementation
+        throw new NotImplementedException();
     }
 
     /// <summary>
@@ -98,5 +100,6 @@ public class ProductService : IProductService
     public async Task<IEnumerable<Product>> SearchProductsAsync(string searchTerm)
     {
         // TODO: DEMO - Type the implementation
+        throw new NotImplementedException();
     }
 }
